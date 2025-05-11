@@ -4,8 +4,6 @@ import Select from "react-select";
 import TableData from "./TableData";
 
 function SearchField({ addRowToTable }) {
-  const API_KEY = "caf19d4f9a4c92aa82c35e03f0f73746";
-
   const [filteredCountries, setFilteredCountries] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState(null); // Store selected country
 
